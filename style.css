@@ -25,7 +25,7 @@ header a.nav-link {
     height: 63px;
 } 
 .slider {
-    background-image: url(Image/frt.jpg);
+    background-image: url("./Image/frt.jpg");
     position: relative;
     height: 600px;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ section.second {
     object-fit: cover;
 }
 .banner {
-    background-image: url(/Image/frt.jpg);
+    background-image: url("./Image/frt.jpg");
     position: relative;
     height: 243px;
     background-repeat: no-repeat;

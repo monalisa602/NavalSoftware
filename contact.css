@@ -30,7 +30,7 @@ header a.nav-link {
     height: 63px;
 } 
   .main {
-    background-image: url("./Image/frt.jpg");
+    background-image: url("Image/frt.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'Teko', sans-serif;

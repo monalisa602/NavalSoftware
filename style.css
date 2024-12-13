@@ -6,6 +6,10 @@ header {
     width: 100%;
     background: #0000007d;
 }
+.navbar navbar-expand-lg{
+position: fixed;
+/* top: 0; */
+}
 header a.nav-link {
     color: #fff;
     font-weight: 700;
@@ -152,3 +156,267 @@ section.best_plan {
     width: 100%;
     height: 100%;
 }
+.ceo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 30px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: blueviolet;
+
+}
+
+.ceo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+.grp{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 450px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+.pol{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 650px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: brown;
+}
+.pol img{
+    height: 350px;
+    width: 380px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.grp3{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 30px;
+    margin-left:160px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+.cmp1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+   
+.grp3 img{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.grp3 p{
+    margin-left: 20px;
+}
+.iti h1{
+    text-align: center;
+    
+}
+
+
+.cls2 section body{
+    background-color: #fb383b;
+}
+.section{
+    margin-top: 100px;
+    margin-left:200px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-div{
+    height: 650px;
+    width: 700px;
+    img{
+      height: 50px;
+      width: 50px;
+    }
+    
+  }
+  .left-div p{
+    line-height: 1.6em;
+  }
+  .left-div h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+  }
+  .right-div{
+    height: 650px;
+    width: 700px;
+    
+  }
+  .heading{
+    margin-top: 25px;
+  }
+  .visit{
+    margin-top: 25px;
+    display: flex;
+  }
+  
+  .email{
+    margin-top: 25px;
+    display: flex;
+  }
+  .call{
+    margin-top: 25px;
+    display: flex;
+  }
+  
+  /* ------- Left-div----------*/
+  .right-div{
+    margin-left: 10px;
+  }
+   .right-div input{
+    width: 45%;
+    height: 3.5rem;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left:15px ;
+  background-color: beige;
+  border-style: none;
+  }
+  .right-div input:focus{
+  border: .1em solid red;
+  outline: .1em solid red;
+  }
+  .right-div textarea{
+  width: 92%;
+  height: 15rem;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 15px 15px;
+  background-color: beige;
+  border-style: none;
+  }
+  .right-div textarea:focus{
+    border: .1em solid red;
+    outline: .1em solid red;
+    }
+  .button1{
+    width: 200px;
+    height: 4rem;
+    background-color: #ce1616;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button1:hover{
+    background-color: #8d2626;
+
+  }  
+  .section2{
+  
+    background-image: url("./Image/asi.jpg");
+    background-size: cover; /* Full width and 50% height */
+    background-repeat: no-repeat;
+   /* Ensure the body itself covers the full viewport height */
+    /*background-position: center top;*/
+    font-family: 'Teko', sans-serif;
+    height: 85vh;
+  padding: 10px;
+  }
+  .last{
+    margin: 150px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .last-1{
+    height: 250px;
+    width: 400px;
+    
+   margin: 10px;
+   color: white;
+   line-height: 3.5rem;
+  }
+  .last-1 h1{
+  font-weight: 800;
+  font-size: 30px;
+  
+  }
+  .last-2{
+    height: 250px;
+    width: 400px;
+   
+    margin: 10px;
+    color: white;
+  }
+  .last-2 h1{
+    font-weight: 800;
+    font-size: 20px;
+    }
+  .last-2 ul{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 3rem;
+    
+  }
+  .last-2 ul li a{
+    color: beige;
+  }
+  .last-3{
+    height: 250px;
+    width: 400px;
+   
+    margin: 10px;
+    color: white;
+  }
+  .last-3 h1{
+    font-weight: 800;
+    font-size: 20px;
+    }
+  .last-3 img{
+    height: 20px;
+    width: 20px;
+  }
+  .p1{
+    line-height: 1rem;
+  }
+  .last-3 p{
+    margin-top: 5px;
+    line-height: 2.5rem;
+  }
+  .last-4{
+    height: 250px;
+    width: 400px;
+    margin: 10px;
+    color: white;
+    line-height:2.5rem;
+  }
+  .last input{
+    margin-top: 20px;
+    width: 100%;
+    height:3rem;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+  
+  }
+  
+  footer{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+  }
